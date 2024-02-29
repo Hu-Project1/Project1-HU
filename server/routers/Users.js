@@ -5,7 +5,7 @@ const verifyJWT = require("../middleware/verifyToken");
 
 router.post("/AddNewUser", signUpController.handleCreateNewUser);
 // router.get("/AllUsers", signUpController.handleGetAllUsers);
-// router.post("/LoginUser", signUpController.checkUser);
+router.post("/LoginUser", signUpController.checkUser);
 // router.get("/getUserById/:id", signUpController.getUserById);
 // router.delete("/deleteUser/:id", signUpController.deleteUser);
 // router.put("/UpdateUser/:id", signUpController.UpdateUser);
