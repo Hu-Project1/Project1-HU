@@ -15,3 +15,8 @@ ALTER TABLE IF EXISTS public."user"
 
 ALTER TABLE public."user"
 ADD COLUMN state boolean NOT NULL DEFAULT false;
+
+
+
+
+////////////////////////////
